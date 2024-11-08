@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 // Middleware
-const db = 'mongodb+srv://grocery-webapp:grocery-webapp@cluster0.oioedos.mongodb.net/grocery-webapp?retryWrites=true&w=majority'
+const db = 'mongodb+srv://tharun:tharun18@nm.tkwrg.mongodb.net/grocerwebb?retryWrites=true&w=majority&appName=NM'
+
 
 // Connect to MongoDB using the connection string
 mongoose.connect(db, {
